@@ -1,9 +1,9 @@
 ================================================================================
-  Projeto Final - Meu Primeiro Ambiente VR
-  Residência em TIC 29 - Web 3.0
+#  Projeto Final - Meu Primeiro Ambiente VR
+# Residência em TIC 29 - Web 3.0
 ================================================================================
 
-DESCRIÇÃO DO PROJETO
+##DESCRIÇÃO DO PROJETO
 --------------------
 Este projeto consiste em um ambiente de Realidade Virtual ambientado em um
 hospital, desenvolvido em Unity como projeto final da primeira fase do curso.
@@ -11,11 +11,13 @@ A cena recria uma sala cirúrgica utilizando o asset "Charité University Hospit
 - Operating Room" (SketchFab), complementado por assets padrões hospitalares
 para enriquecer o ambiente.
 
+<img width="1919" height="1079" alt="Captura de tela 2026-05-27 211654" src="https://github.com/user-attachments/assets/0576f045-273a-41de-ab3f-0567ab7420b4" />
+
 O objetivo foi demonstrar os fundamentos de XR através da criação de um ambiente
 navegável e coerente, cumprindo todos os requisitos técnicos da atividade.
 
 
-AMBIENTE VIRTUAL
+##AMBIENTE VIRTUAL
 ----------------
 Tema: Sala cirúrgica hospitalar
 
@@ -29,7 +31,7 @@ reproduzindo o layout funcional de uma sala de cirurgia, com plano de chão
 navegável e skybox configurado.
 
 
-CONFIGURAÇÃO TÉCNICA
+##CONFIGURAÇÃO TÉCNICA
 --------------------
 Engine:       Unity
 Plataforma:   PC (Unity Editor)
@@ -40,7 +42,7 @@ Movimentação: Funcional no PC via Unity Editor (teclado/mouse),
               conforme requisito da atividade.
 
 
-ESTRUTURA DO PROJETO
+##ESTRUTURA DO PROJETO
 --------------------
 Assets/
   _Scenes/          -> Cenas do projeto
@@ -52,7 +54,7 @@ ProjectSettings/    -> Configurações do projeto Unity
 Packages/           -> Dependências gerenciadas pelo Package Manager
 
 
-COMO EXECUTAR
+##COMO EXECUTAR
 -------------
 1. Abra o projeto no Unity Hub
 2. Abra a cena principal em Assets/_Scenes/
@@ -61,7 +63,7 @@ COMO EXECUTAR
    - Mouse: controle de câmera/visão
 
 
-OBSERVAÇÕES TÉCNICAS - MATERIAIS E TEXTURAS
+##OBSERVAÇÕES TÉCNICAS - MATERIAIS E TEXTURAS
 --------------------------------------------
 Durante o desenvolvimento, foi encontrada dificuldade na aplicação correta dos
 materiais nos assets importados do SketchFab. O problema ocorre porque assets
@@ -87,7 +89,7 @@ Caso o problema persista em futuras iterações, recomenda-se:
     importação nativa de glTF com materiais preservados
 
 
-REPOSITÓRIO
+##REPOSITÓRIO
 -----------
 Link do repositório GitHub: https://github.com/alannogueira709/unity-web3
 
@@ -99,7 +101,7 @@ Pastas incluídas no repositório:
 (Pastas excluídas: Library/, Temp/, Build/, Logs/ - ignoradas via .gitignore)
 
 
-REFLEXÃO SOBRE O APRENDIZADO
+##REFLEXÃO SOBRE O APRENDIZADO
 ------------------------------
 O projeto permitiu consolidar os conceitos fundamentais de XR no Unity,
 desde a configuração do SDK e XR Plugin Management até a construção de
